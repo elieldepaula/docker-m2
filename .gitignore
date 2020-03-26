@@ -1,0 +1,16 @@
+logs/apache2/*.log
+logs/mysql/*.log
+data/mysql/auto.cnf
+data/mysql/ca-key.pem
+data/mysql/ca.pem
+data/mysql/client-cert.pem
+data/mysql/client-key.pem
+data/mysql/ib_buffer_pool
+data/mysql/ib_logfile0
+data/mysql/ib_logfile1
+data/mysql/ibdata1
+data/mysql/ibtmp1
+data/mysql/private_key.pem
+data/mysql/public_key.pem
+data/mysql/server-cert.pem
+data/mysql/server-key.pem

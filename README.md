@@ -1,6 +1,6 @@
-# LAMP stack built with Docker Compose
+# Docker for Magento 2
 
-This is a basic LAMP stack environment built using Docker Compose. It consists following:
+This is a basic stack environment built using Docker Compose for Magento 2 applications. It consists following:
 
 * PHP 7.3
 * Apache 2.4
@@ -9,18 +9,17 @@ This is a basic LAMP stack environment built using Docker Compose. It consists f
 
 ## Installation
 
-Clone this repository on your local computer and switch to branch `7.3.x-magento`. Run the `bin/start`.
+Clone this repository on your local computer and run the `bin/start`.
 
 ```shell
-git clone https://github.com/elieldepaula/docker-lamp.git
+git clone https://github.com/elieldepaula/docker-m2.git
 cd docker-lamp/
 git fetch --all
-git checkout 7.3.x-magento
 cp sample.env .env
 docker-compose up -d
 ```
 
-Your LAMP stack is now ready!! You can access it via `http://localhost`.
+Your M2 stack is now ready!! You can access it via `http://localhost`.
 
 ## Configuration
 
