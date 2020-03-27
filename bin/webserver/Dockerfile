@@ -43,7 +43,8 @@ RUN docker-php-ext-install pdo_mysql && \
     docker-php-ext-install gettext && \
     docker-php-ext-install bcmath && \
     docker-php-ext-install xsl && \
-    docker-php-ext-install soap
+    docker-php-ext-install soap && \
+    docker-php-ext-install sockets
 
 # Install Freetype 
 RUN apt-get -y update && \

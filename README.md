@@ -9,14 +9,13 @@ This is a basic stack environment built using Docker Compose for Magento 2 appli
 
 ## Installation
 
-Clone this repository on your local computer and run the `bin/start`.
+Clone this repository on your local computer and run the `docker-compose up -d --build`.
 
 ```shell
-git clone https://github.com/elieldepaula/docker-m2.git
-cd docker-lamp/
-git fetch --all
+git clone https://github.com/elieldepaula/docker-m2.git project-folder
+cd project-folder/
 cp sample.env .env
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 Your M2 stack is now ready!! You can access it via `http://localhost`.
