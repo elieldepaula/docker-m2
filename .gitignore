@@ -1,3 +1,4 @@
+.env
 logs/apache2/*.log
 logs/mysql/*.log
 data/mysql/auto.cnf
